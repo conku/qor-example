@@ -1,10 +1,10 @@
 package orders
 
 import (
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/models/products"
+	"github.com/conku/transition"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/transition"
 )
 
 type OrderItem struct {

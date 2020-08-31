@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/qor/admin"
-	"github.com/qor/notification"
-	"github.com/qor/notification/channels/database"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/orders"
+	"github.com/conku/admin"
+	"github.com/conku/notification"
+	"github.com/conku/notification/channels/database"
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/models/orders"
 )
 
 // SetupNotification add notification

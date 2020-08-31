@@ -3,9 +3,9 @@ package home
 import (
 	"net/http"
 
-	"github.com/qor/qor"
-	"github.com/qor/qor/utils"
-	"github.com/qor/render"
+	"github.com/conku/qor"
+	"github.com/conku/qor/utils"
+	"github.com/conku/render"
 )
 
 // Controller home controller

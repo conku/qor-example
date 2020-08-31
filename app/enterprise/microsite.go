@@ -5,12 +5,12 @@ package enterprise
 import (
 	"enterprise.getqor.com/microsite"
 	"enterprise.getqor.com/microsite/develop/aws_manager"
+	"github.com/conku/admin"
+	"github.com/conku/l10n"
+	"github.com/conku/publish2"
+	adminapp "github.com/conku/qor-example/app/admin"
+	"github.com/conku/roles"
 	"github.com/jinzhu/configor"
-	"github.com/qor/admin"
-	"github.com/qor/l10n"
-	"github.com/qor/publish2"
-	adminapp "github.com/qor/qor-example/app/admin"
-	"github.com/qor/roles"
 )
 
 var MicroSite *microsite.MicroSite

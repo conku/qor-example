@@ -1,10 +1,10 @@
 package admin
 
 import (
-	"github.com/qor/admin"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/models/seo"
-	qor_seo "github.com/qor/seo"
+	"github.com/conku/admin"
+	"github.com/conku/qor-example/models/products"
+	"github.com/conku/qor-example/models/seo"
+	qor_seo "github.com/conku/seo"
 )
 
 // SetupSEO add seo

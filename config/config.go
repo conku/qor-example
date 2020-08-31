@@ -3,20 +3,20 @@ package config
 import (
 	"os"
 
+	amazonpay "github.com/conku/amazon-pay-sdk-go"
+	"github.com/conku/auth/providers/facebook"
+	"github.com/conku/auth/providers/github"
+	"github.com/conku/auth/providers/google"
+	"github.com/conku/auth/providers/twitter"
+	"github.com/conku/gomerchant"
+	"github.com/conku/location"
+	"github.com/conku/mailer"
+	"github.com/conku/mailer/logger"
+	"github.com/conku/media/oss"
+	"github.com/conku/oss/s3"
+	"github.com/conku/redirect_back"
+	"github.com/conku/session/manager"
 	"github.com/jinzhu/configor"
-	amazonpay "github.com/qor/amazon-pay-sdk-go"
-	"github.com/qor/auth/providers/facebook"
-	"github.com/qor/auth/providers/github"
-	"github.com/qor/auth/providers/google"
-	"github.com/qor/auth/providers/twitter"
-	"github.com/qor/gomerchant"
-	"github.com/qor/location"
-	"github.com/qor/mailer"
-	"github.com/qor/mailer/logger"
-	"github.com/qor/media/oss"
-	"github.com/qor/oss/s3"
-	"github.com/qor/redirect_back"
-	"github.com/qor/session/manager"
 	"github.com/unrolled/render"
 )
 
@@ -63,7 +63,7 @@ var Config = struct {
 }{}
 
 var (
-	Root           = os.Getenv("GOPATH") + "/src/github.com/qor/qor-example"
+	Root           = os.Getenv("GOPATH") + "/src/github.com/conku/qor-example"
 	Mailer         *mailer.Mailer
 	Render         = render.New()
 	AmazonPay      amazonpay.AmazonPayService

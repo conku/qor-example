@@ -3,18 +3,18 @@ package pages
 import (
 	"fmt"
 
-	"github.com/qor/admin"
-	"github.com/qor/page_builder"
-	"github.com/qor/qor"
-	adminapp "github.com/qor/qor-example/app/admin"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/blogs"
-	"github.com/qor/qor-example/utils/funcmapmaker"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
-	"github.com/qor/render"
-	"github.com/qor/widget"
+	"github.com/conku/admin"
+	"github.com/conku/page_builder"
+	"github.com/conku/qor"
+	adminapp "github.com/conku/qor-example/app/admin"
+	"github.com/conku/qor-example/config/application"
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/models/blogs"
+	"github.com/conku/qor-example/utils/funcmapmaker"
+	"github.com/conku/qor/resource"
+	"github.com/conku/qor/utils"
+	"github.com/conku/render"
+	"github.com/conku/widget"
 )
 
 // New new home app

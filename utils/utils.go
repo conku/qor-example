@@ -5,16 +5,16 @@ import (
 	"html/template"
 	"net/http"
 
+	"github.com/conku/l10n"
+	"github.com/conku/qor-example/config/auth"
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/models/users"
+	"github.com/conku/qor/utils"
+	"github.com/conku/session"
+	"github.com/conku/session/manager"
 	"github.com/go-chi/chi"
 	"github.com/jinzhu/gorm"
 	"github.com/microcosm-cc/bluemonday"
-	"github.com/qor/l10n"
-	"github.com/qor/qor-example/config/auth"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/qor/utils"
-	"github.com/qor/session"
-	"github.com/qor/session/manager"
 )
 
 // GetCurrentUser get current user from request

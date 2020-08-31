@@ -3,18 +3,18 @@ package auth
 import (
 	"time"
 
-	"github.com/qor/auth"
-	"github.com/qor/auth/authority"
-	"github.com/qor/auth/providers/facebook"
-	"github.com/qor/auth/providers/github"
-	"github.com/qor/auth/providers/google"
-	"github.com/qor/auth/providers/twitter"
-	"github.com/qor/auth_themes/clean"
-	"github.com/qor/qor-example/config"
-	"github.com/qor/qor-example/config/bindatafs"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/render"
+	"github.com/conku/auth"
+	"github.com/conku/auth/authority"
+	"github.com/conku/auth/providers/facebook"
+	"github.com/conku/auth/providers/github"
+	"github.com/conku/auth/providers/google"
+	"github.com/conku/auth/providers/twitter"
+	"github.com/conku/auth_themes/clean"
+	"github.com/conku/qor-example/config"
+	"github.com/conku/qor-example/config/bindatafs"
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/models/users"
+	"github.com/conku/render"
 )
 
 var (

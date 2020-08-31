@@ -1,9 +1,9 @@
 package home
 
 import (
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/utils/funcmapmaker"
-	"github.com/qor/render"
+	"github.com/conku/qor-example/config/application"
+	"github.com/conku/qor-example/utils/funcmapmaker"
+	"github.com/conku/render"
 )
 
 // New new home app

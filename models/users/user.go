@@ -3,9 +3,9 @@ package users
 import (
 	"time"
 
+	"github.com/conku/media"
+	"github.com/conku/media/oss"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/media"
-	"github.com/qor/media/oss"
 )
 
 type User struct {

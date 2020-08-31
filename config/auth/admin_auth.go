@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/roles"
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor-example/models/users"
+	"github.com/conku/roles"
 )
 
 func init() {

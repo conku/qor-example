@@ -1,14 +1,14 @@
 package admin
 
 import (
-	"github.com/qor/action_bar"
-	"github.com/qor/admin"
-	"github.com/qor/help"
-	"github.com/qor/media/asset_manager"
-	"github.com/qor/media/media_library"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/config/i18n"
-	"github.com/qor/qor-example/models/settings"
+	"github.com/conku/action_bar"
+	"github.com/conku/admin"
+	"github.com/conku/help"
+	"github.com/conku/media/asset_manager"
+	"github.com/conku/media/media_library"
+	"github.com/conku/qor-example/config/application"
+	"github.com/conku/qor-example/config/i18n"
+	"github.com/conku/qor-example/models/settings"
 )
 
 // ActionBar admin action bar

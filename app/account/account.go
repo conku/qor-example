@@ -3,17 +3,17 @@ package account
 import (
 	"strconv"
 
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor-example/config/application"
+	"github.com/conku/qor-example/config/auth"
+	"github.com/conku/qor-example/models/users"
+	"github.com/conku/qor-example/utils/funcmapmaker"
+	"github.com/conku/qor/resource"
+	qorutils "github.com/conku/qor/utils"
+	"github.com/conku/render"
+	"github.com/conku/validations"
 	"github.com/go-chi/chi"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/config/auth"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/qor-example/utils/funcmapmaker"
-	"github.com/qor/qor/resource"
-	qorutils "github.com/qor/qor/utils"
-	"github.com/qor/render"
-	"github.com/qor/validations"
 	"golang.org/x/crypto/bcrypt"
 )
 

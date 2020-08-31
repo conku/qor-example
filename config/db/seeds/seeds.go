@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/azumads/faker"
+	"github.com/conku/publish2"
 	"github.com/jinzhu/configor"
-	"github.com/qor/publish2"
 
-	"github.com/qor/qor-example/config/db"
+	"github.com/conku/qor-example/config/db"
 )
 
 var Fake *faker.Faker

@@ -1,8 +1,8 @@
 package seo
 
 import (
-	"github.com/qor/l10n"
-	"github.com/qor/seo"
+	"github.com/conku/l10n"
+	"github.com/conku/seo"
 )
 
 type MySEOSetting struct {

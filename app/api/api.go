@@ -1,13 +1,13 @@
 package api
 
 import (
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/orders"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/models/users"
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor-example/config/application"
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/models/orders"
+	"github.com/conku/qor-example/models/products"
+	"github.com/conku/qor-example/models/users"
 )
 
 // New new home app

@@ -5,16 +5,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/qor/admin"
-	"github.com/qor/exchange"
-	"github.com/qor/exchange/backends/csv"
-	"github.com/qor/i18n/exchange_actions"
-	"github.com/qor/media/oss"
-	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/config/i18n"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/worker"
+	"github.com/conku/admin"
+	"github.com/conku/exchange"
+	"github.com/conku/exchange/backends/csv"
+	"github.com/conku/i18n/exchange_actions"
+	"github.com/conku/media/oss"
+	"github.com/conku/qor"
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/config/i18n"
+	"github.com/conku/qor-example/models/products"
+	"github.com/conku/worker"
 )
 
 // SetupWorker setup worker

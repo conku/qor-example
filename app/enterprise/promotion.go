@@ -6,10 +6,10 @@ import (
 	"fmt"
 
 	"enterprise.getqor.com/promotion"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/products"
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/models/products"
 )
 
 // SetupPromotion setup promotion

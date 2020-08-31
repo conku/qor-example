@@ -1,12 +1,12 @@
 package admin
 
 import (
-	"github.com/qor/exchange"
-	"github.com/qor/qor"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
-	"github.com/qor/validations"
+	"github.com/conku/exchange"
+	"github.com/conku/qor"
+	"github.com/conku/qor-example/models/products"
+	"github.com/conku/qor/resource"
+	"github.com/conku/qor/utils"
+	"github.com/conku/validations"
 )
 
 // ProductExchange product exchange

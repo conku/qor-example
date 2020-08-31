@@ -1,21 +1,21 @@
 package migrations
 
 import (
-	"github.com/qor/activity"
-	"github.com/qor/auth/auth_identity"
-	"github.com/qor/banner_editor"
-	"github.com/qor/help"
-	"github.com/qor/media/asset_manager"
-	"github.com/qor/qor-example/app/admin"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/blogs"
-	"github.com/qor/qor-example/models/orders"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/models/seo"
-	"github.com/qor/qor-example/models/settings"
-	"github.com/qor/qor-example/models/stores"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/transition"
+	"github.com/conku/activity"
+	"github.com/conku/auth/auth_identity"
+	"github.com/conku/banner_editor"
+	"github.com/conku/help"
+	"github.com/conku/media/asset_manager"
+	"github.com/conku/qor-example/app/admin"
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/models/blogs"
+	"github.com/conku/qor-example/models/orders"
+	"github.com/conku/qor-example/models/products"
+	"github.com/conku/qor-example/models/seo"
+	"github.com/conku/qor-example/models/settings"
+	"github.com/conku/qor-example/models/stores"
+	"github.com/conku/qor-example/models/users"
+	"github.com/conku/transition"
 )
 
 func init() {

@@ -3,12 +3,12 @@ package application
 import (
 	"net/http"
 
+	"github.com/conku/admin"
+	"github.com/conku/assetfs"
+	"github.com/conku/middlewares"
+	"github.com/conku/wildcard_router"
 	"github.com/go-chi/chi"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/assetfs"
-	"github.com/qor/middlewares"
-	"github.com/qor/wildcard_router"
 )
 
 // MicroAppInterface micro app interface

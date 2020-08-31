@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/conku/l10n"
+	"github.com/conku/sorting"
+	"github.com/conku/validations"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/l10n"
-	"github.com/qor/sorting"
-	"github.com/qor/validations"
 )
 
 type Category struct {

@@ -8,19 +8,19 @@ import (
 	"log"
 	"strings"
 
+	"github.com/conku/l10n"
+	"github.com/conku/media"
+	"github.com/conku/media/media_library"
+	"github.com/conku/media/oss"
+	"github.com/conku/publish2"
+	qor_seo "github.com/conku/seo"
+	"github.com/conku/slug"
+	"github.com/conku/sorting"
+	"github.com/conku/validations"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/l10n"
-	"github.com/qor/media"
-	"github.com/qor/media/media_library"
-	"github.com/qor/media/oss"
-	"github.com/qor/publish2"
-	qor_seo "github.com/qor/seo"
-	"github.com/qor/slug"
-	"github.com/qor/sorting"
-	"github.com/qor/validations"
 
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/seo"
+	"github.com/conku/qor-example/config/db"
+	"github.com/conku/qor-example/models/seo"
 )
 
 type Product struct {

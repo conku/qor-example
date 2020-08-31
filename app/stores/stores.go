@@ -3,13 +3,13 @@ package stores
 import (
 	"strings"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/models/stores"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
-	"github.com/qor/validations"
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor-example/config/application"
+	"github.com/conku/qor-example/models/stores"
+	"github.com/conku/qor/resource"
+	"github.com/conku/qor/utils"
+	"github.com/conku/validations"
 )
 
 // New new home app

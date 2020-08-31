@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
+	amazonpay "github.com/conku/amazon-pay-sdk-go"
+	"github.com/conku/qor-example/config"
+	"github.com/conku/qor-example/models/users"
+	"github.com/conku/qor-example/utils"
+	"github.com/conku/transition"
 	"github.com/jinzhu/gorm"
-	amazonpay "github.com/qor/amazon-pay-sdk-go"
-	"github.com/qor/qor-example/config"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/qor-example/utils"
-	"github.com/qor/transition"
 )
 
 var (

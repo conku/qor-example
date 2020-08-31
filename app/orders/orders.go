@@ -7,16 +7,16 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/conku/activity"
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor-example/config/application"
+	"github.com/conku/qor-example/models/orders"
+	"github.com/conku/qor-example/models/products"
+	"github.com/conku/qor-example/utils/funcmapmaker"
+	"github.com/conku/render"
+	"github.com/conku/transition"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/activity"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/models/orders"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/utils/funcmapmaker"
-	"github.com/qor/render"
-	"github.com/qor/transition"
 )
 
 // New new home app

@@ -1,8 +1,8 @@
 package blogs
 
 import (
-	"github.com/qor/page_builder"
-	"github.com/qor/publish2"
+	"github.com/conku/page_builder"
+	"github.com/conku/publish2"
 )
 
 type Page struct {

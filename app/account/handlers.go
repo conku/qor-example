@@ -3,10 +3,10 @@ package account
 import (
 	"net/http"
 
-	"github.com/qor/qor-example/models/orders"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/qor-example/utils"
-	"github.com/qor/render"
+	"github.com/conku/qor-example/models/orders"
+	"github.com/conku/qor-example/models/users"
+	"github.com/conku/qor-example/utils"
+	"github.com/conku/render"
 )
 
 // Controller products controller

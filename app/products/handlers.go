@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/utils"
-	"github.com/qor/render"
+	"github.com/conku/qor-example/models/products"
+	"github.com/conku/qor-example/utils"
+	"github.com/conku/render"
 )
 
 // Controller products controller

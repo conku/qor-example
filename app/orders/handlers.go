@@ -5,15 +5,15 @@ import (
 	"net/http"
 	"strconv"
 
+	amazonpay "github.com/conku/amazon-pay-sdk-go"
+	"github.com/conku/gomerchant"
+	"github.com/conku/qor-example/config"
+	"github.com/conku/qor-example/models/orders"
+	"github.com/conku/qor-example/utils"
+	qorrender "github.com/conku/render"
+	"github.com/conku/responder"
+	"github.com/conku/session/manager"
 	"github.com/gorilla/schema"
-	amazonpay "github.com/qor/amazon-pay-sdk-go"
-	"github.com/qor/gomerchant"
-	"github.com/qor/qor-example/config"
-	"github.com/qor/qor-example/models/orders"
-	"github.com/qor/qor-example/utils"
-	qorrender "github.com/qor/render"
-	"github.com/qor/responder"
-	"github.com/qor/session/manager"
 )
 
 // Controller products controller
@@ -77,7 +77,7 @@ func (ctrl Controller) CompleteCreditCard(w http.ResponseWriter, req *http.Reque
 	}
 
 	if creditCard.ValidNumber() {
-		// TODO integrate with https://github.com/qor/gomerchant to handle those information
+		// TODO integrate with https://github.com/conku/gomerchant to handle those information
 		tx := utils.GetDB(req)
 		err := orders.OrderState.Trigger("checkout", order, tx, "")
 

@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"html/template"
 
+	"github.com/conku/admin"
+	"github.com/conku/media"
+	"github.com/conku/media/media_library"
+	"github.com/conku/qor"
+	"github.com/conku/qor-example/config/application"
+	"github.com/conku/qor-example/models/products"
+	"github.com/conku/qor-example/utils/funcmapmaker"
+	"github.com/conku/render"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/admin"
-	"github.com/qor/media"
-	"github.com/qor/media/media_library"
-	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/utils/funcmapmaker"
-	"github.com/qor/render"
 )
 
 var Genders = []string{"Men", "Women", "Kids"}

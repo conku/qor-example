@@ -1,6 +1,6 @@
 package settings
 
-import "github.com/qor/media/media_library"
+import "github.com/conku/media/media_library"
 
 type MediaLibrary struct {
 	Title string
