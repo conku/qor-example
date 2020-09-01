@@ -3,7 +3,7 @@ package pages
 import (
 	"net/http"
 
-	"github.com/conku/render"
+	render "github.com/conku/render2"
 )
 
 // Controller home controller

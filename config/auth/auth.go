@@ -14,7 +14,7 @@ import (
 	"github.com/conku/qor-example/config/bindatafs"
 	"github.com/conku/qor-example/config/db"
 	"github.com/conku/qor-example/models/users"
-	"github.com/conku/render"
+	render "github.com/conku/render2"
 )
 
 var (

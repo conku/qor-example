@@ -11,7 +11,7 @@ import (
 	"github.com/conku/qor-example/utils/funcmapmaker"
 	"github.com/conku/qor/resource"
 	qorutils "github.com/conku/qor/utils"
-	"github.com/conku/render"
+	render "github.com/conku/render2"
 	"github.com/conku/validations"
 	"github.com/go-chi/chi"
 	"golang.org/x/crypto/bcrypt"

@@ -5,7 +5,7 @@ import (
 
 	"github.com/conku/qor"
 	"github.com/conku/qor/utils"
-	"github.com/conku/render"
+	render "github.com/conku/render2"
 )
 
 // Controller home controller
