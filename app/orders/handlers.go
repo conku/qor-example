@@ -10,7 +10,7 @@ import (
 	"github.com/conku/qor-example/config"
 	"github.com/conku/qor-example/models/orders"
 	"github.com/conku/qor-example/utils"
-	qorrender "github.com/conku/render2"
+	qorrender "github.com/conku/render"
 	"github.com/conku/responder"
 	"github.com/conku/session/manager"
 	"github.com/gorilla/schema"

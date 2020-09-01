@@ -14,7 +14,7 @@ import (
 	"github.com/conku/qor-example/models/seo"
 	"github.com/conku/qor-example/models/users"
 	"github.com/conku/qor-example/utils"
-	render "github.com/conku/render2"
+	render "github.com/conku/render"
 	"github.com/conku/session"
 	"github.com/conku/session/manager"
 	"github.com/conku/widget"

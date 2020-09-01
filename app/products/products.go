@@ -12,7 +12,7 @@ import (
 	"github.com/conku/qor-example/config/application"
 	"github.com/conku/qor-example/models/products"
 	"github.com/conku/qor-example/utils/funcmapmaker"
-	render "github.com/conku/render2"
+	render "github.com/conku/render"
 	"github.com/jinzhu/gorm"
 )
 

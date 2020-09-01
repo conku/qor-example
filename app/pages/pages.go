@@ -13,7 +13,7 @@ import (
 	"github.com/conku/qor-example/utils/funcmapmaker"
 	"github.com/conku/qor/resource"
 	"github.com/conku/qor/utils"
-	render "github.com/conku/render2"
+	render "github.com/conku/render"
 	"github.com/conku/widget"
 )
 

@@ -6,7 +6,7 @@ import (
 
 	"github.com/conku/qor-example/models/products"
 	"github.com/conku/qor-example/utils"
-	render "github.com/conku/render2"
+	render "github.com/conku/render"
 )
 
 // Controller products controller
