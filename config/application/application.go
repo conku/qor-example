@@ -5,10 +5,10 @@ import (
 
 	"github.com/conku/admin"
 	"github.com/conku/assetfs"
+	"github.com/conku/gorm"
 	"github.com/conku/middlewares"
 	"github.com/conku/wildcard_router"
 	"github.com/go-chi/chi"
-	"github.com/jinzhu/gorm"
 )
 
 // MicroAppInterface micro app interface

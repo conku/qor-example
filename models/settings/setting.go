@@ -1,9 +1,9 @@
 package settings
 
 import (
+	"github.com/conku/gorm"
 	"github.com/conku/l10n"
 	"github.com/conku/location"
-	"github.com/jinzhu/gorm"
 )
 
 type FeeSetting struct {

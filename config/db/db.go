@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/mysql"
-	_ "github.com/jinzhu/gorm/dialects/postgres"
+	"github.com/conku/gorm"
+	_ "github.com/conku/gorm/dialects/mysql"
+	_ "github.com/conku/gorm/dialects/postgres"
 
-	// _ "github.com/jinzhu/gorm/dialects/sqlite"
+	// _ "github.com/conku/gorm/dialects/sqlite"
 	"github.com/conku/l10n"
 	"github.com/conku/media"
 	"github.com/conku/publish2"

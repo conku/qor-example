@@ -1,7 +1,7 @@
 package orders
 
 import (
-	"github.com/jinzhu/gorm"
+	"github.com/conku/gorm"
 )
 
 type DeliveryMethod struct {

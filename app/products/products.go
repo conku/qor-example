@@ -6,6 +6,7 @@ import (
 	"html/template"
 
 	"github.com/conku/admin"
+	"github.com/conku/gorm"
 	"github.com/conku/media"
 	"github.com/conku/media/media_library"
 	"github.com/conku/qor"
@@ -13,7 +14,6 @@ import (
 	"github.com/conku/qor-example/models/products"
 	"github.com/conku/qor-example/utils/funcmapmaker"
 	render "github.com/conku/render"
-	"github.com/jinzhu/gorm"
 )
 
 var Genders = []string{"Men", "Women", "Kids"}

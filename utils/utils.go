@@ -5,6 +5,7 @@ import (
 	"html/template"
 	"net/http"
 
+	"github.com/conku/gorm"
 	"github.com/conku/l10n"
 	"github.com/conku/qor-example/config/auth"
 	"github.com/conku/qor-example/config/db"
@@ -13,7 +14,6 @@ import (
 	"github.com/conku/session"
 	"github.com/conku/session/manager"
 	"github.com/go-chi/chi"
-	"github.com/jinzhu/gorm"
 	"github.com/microcosm-cc/bluemonday"
 )
 

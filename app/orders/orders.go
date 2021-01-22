@@ -9,6 +9,7 @@ import (
 
 	"github.com/conku/activity"
 	"github.com/conku/admin"
+	"github.com/conku/gorm"
 	"github.com/conku/qor"
 	"github.com/conku/qor-example/config/application"
 	"github.com/conku/qor-example/models/orders"
@@ -16,7 +17,6 @@ import (
 	"github.com/conku/qor-example/utils/funcmapmaker"
 	render "github.com/conku/render"
 	"github.com/conku/transition"
-	"github.com/jinzhu/gorm"
 )
 
 // New new home app

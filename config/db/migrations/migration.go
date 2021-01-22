@@ -6,6 +6,7 @@ import (
 	"github.com/conku/banner_editor"
 	"github.com/conku/help"
 	"github.com/conku/media/asset_manager"
+
 	"github.com/conku/qor-example/app/admin"
 	"github.com/conku/qor-example/config/db"
 	"github.com/conku/qor-example/models/blogs"
@@ -25,17 +26,11 @@ func init() {
 	AutoMigrate(&products.Color{}, &products.Size{}, &products.Material{}, &products.Category{}, &products.Collection{})
 
 	AutoMigrate(&users.User{}, &users.Address{})
-
 	AutoMigrate(&orders.Order{}, &orders.OrderItem{})
-
 	AutoMigrate(&orders.DeliveryMethod{})
-
 	AutoMigrate(&stores.Store{})
-
 	AutoMigrate(&settings.Setting{}, &settings.MediaLibrary{})
-
 	AutoMigrate(&transition.StateChangeLog{})
-
 	AutoMigrate(&activity.QorActivity{})
 
 	AutoMigrate(&admin.QorWidgetSetting{})

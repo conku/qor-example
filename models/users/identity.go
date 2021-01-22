@@ -3,7 +3,7 @@ package users
 import (
 	"time"
 
-	"github.com/jinzhu/gorm"
+	"github.com/conku/gorm"
 )
 
 type AuthIdentity struct {

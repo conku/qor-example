@@ -1,8 +1,8 @@
 package products
 
 import (
+	"github.com/conku/gorm"
 	"github.com/conku/l10n"
-	"github.com/jinzhu/gorm"
 )
 
 type Collection struct {

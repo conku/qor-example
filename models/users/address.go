@@ -3,7 +3,7 @@ package users
 import (
 	"fmt"
 
-	"github.com/jinzhu/gorm"
+	"github.com/conku/gorm"
 )
 
 type Address struct {

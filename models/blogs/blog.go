@@ -1,9 +1,9 @@
 package blogs
 
 import (
+	"github.com/conku/gorm"
 	"github.com/conku/publish2"
 	"github.com/conku/qor-example/models/users"
-	"github.com/jinzhu/gorm"
 )
 
 type Article struct {

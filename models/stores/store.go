@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"errors"
 
+	"github.com/conku/gorm"
 	"github.com/conku/location"
 	"github.com/conku/sorting"
-	"github.com/jinzhu/gorm"
 )
 
 type Store struct {

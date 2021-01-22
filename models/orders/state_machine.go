@@ -7,11 +7,11 @@ import (
 	"time"
 
 	amazonpay "github.com/conku/amazon-pay-sdk-go"
+	"github.com/conku/gorm"
 	"github.com/conku/qor-example/config"
 	"github.com/conku/qor-example/models/users"
 	"github.com/conku/qor-example/utils"
 	"github.com/conku/transition"
-	"github.com/jinzhu/gorm"
 )
 
 var (

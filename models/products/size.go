@@ -3,10 +3,10 @@ package products
 import (
 	"strings"
 
+	"github.com/conku/gorm"
 	"github.com/conku/l10n"
 	"github.com/conku/sorting"
 	"github.com/conku/validations"
-	"github.com/jinzhu/gorm"
 )
 
 type Size struct {

@@ -3,11 +3,11 @@ package products
 import (
 	"strings"
 
+	"github.com/conku/gorm"
 	"github.com/conku/l10n"
 	"github.com/conku/publish2"
 	"github.com/conku/sorting"
 	"github.com/conku/validations"
-	"github.com/jinzhu/gorm"
 )
 
 type Color struct {

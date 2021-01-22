@@ -8,6 +8,7 @@ import (
 	"log"
 	"strings"
 
+	"github.com/conku/gorm"
 	"github.com/conku/l10n"
 	"github.com/conku/media"
 	"github.com/conku/media/media_library"
@@ -17,7 +18,6 @@ import (
 	"github.com/conku/slug"
 	"github.com/conku/sorting"
 	"github.com/conku/validations"
-	"github.com/jinzhu/gorm"
 
 	"github.com/conku/qor-example/config/db"
 	"github.com/conku/qor-example/models/seo"

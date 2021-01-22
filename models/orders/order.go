@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/conku/gorm"
 	"github.com/conku/qor-example/models/users"
 	"github.com/conku/transition"
-	"github.com/jinzhu/gorm"
 )
 
 type PaymentMethod = string
