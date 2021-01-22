@@ -20,7 +20,7 @@ const (
 
 type Order struct {
 	gorm.Model
-	UserID                   *uint
+	UserID                   *int64
 	User                     users.User
 	PaymentAmount            float32
 	PaymentTotal             float32

@@ -32,7 +32,7 @@ type Product struct {
 	NameWithSlug          slug.Slug `l10n:"sync"`
 	Featured              bool
 	Code                  string       `l10n:"sync"`
-	CategoryID            uint         `l10n:"sync"`
+	CategoryID            int64        `l10n:"sync"`
 	Category              Category     `l10n:"sync"`
 	Collections           []Collection `l10n:"sync" gorm:"many2many:product_collections;"`
 	MadeCountry           string       `l10n:"sync"`
@@ -186,9 +186,9 @@ func (productProperties ProductProperties) Value() (driver.Value, error) {
 
 type ColorVariation struct {
 	gorm.Model
-	ProductID      uint
+	ProductID      int64
 	Product        Product
-	ColorID        uint
+	ColorID        int64
 	Color          Color
 	ColorCode      string
 	Images         media_library.MediaBox

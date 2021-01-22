@@ -9,8 +9,8 @@ import (
 
 type OrderItem struct {
 	gorm.Model
-	OrderID         uint
-	SizeVariationID uint `cartitem:"SizeVariationID"`
+	OrderID         int64
+	SizeVariationID int64 `cartitem:"SizeVariationID"`
 	SizeVariation   *products.SizeVariation
 	Quantity        uint `cartitem:"Quantity"`
 	Price           float32

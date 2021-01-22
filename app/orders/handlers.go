@@ -98,10 +98,10 @@ func (ctrl Controller) CheckoutSuccess(w http.ResponseWriter, req *http.Request)
 }
 
 type updateCartInput struct {
-	SizeVariationID  uint `schema:"size_variation_id"`
-	Quantity         uint `schema:"quantity"`
-	ProductID        uint `schema:"product_id"`
-	ColorVariationID uint `schema:"color_variation_id"`
+	SizeVariationID  int64 `schema:"size_variation_id"`
+	Quantity         uint  `schema:"quantity"`
+	ProductID        uint  `schema:"product_id"`
+	ColorVariationID uint  `schema:"color_variation_id"`
 }
 
 // UpdateCart update shopping cart
