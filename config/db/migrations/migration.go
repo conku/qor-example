@@ -29,6 +29,7 @@ func init() {
 	AutoMigrate(&orders.Order{}, &orders.OrderItem{})
 	AutoMigrate(&orders.DeliveryMethod{})
 	AutoMigrate(&stores.Store{})
+
 	AutoMigrate(&settings.Setting{}, &settings.MediaLibrary{})
 	AutoMigrate(&transition.StateChangeLog{})
 	AutoMigrate(&activity.QorActivity{})

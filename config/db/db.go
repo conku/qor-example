@@ -41,6 +41,8 @@ func init() {
 			DB.LogMode(true)
 		}
 
+		DB.LogMode(true)
+
 		l10n.RegisterCallbacks(DB)
 		sorting.RegisterCallbacks(DB)
 		validations.RegisterCallbacks(DB)

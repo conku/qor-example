@@ -55,7 +55,7 @@ func (App) ConfigureAdmin(Admin *admin.Admin) {
 
 	category := Admin.AddResource(&products.Category{}, &admin.Config{Menu: []string{"Product Management"}, Priority: -3})
 	category.Meta(&admin.Meta{Name: "Categories", Type: "select_many"})
-
+	category.Meta(&admin.Meta{Name: "Code", Type: "rich_editor"})
 	collection := Admin.AddResource(&products.Collection{}, &admin.Config{Menu: []string{"Product Management"}, Priority: -2})
 
 	// Add ProductImage as Media Libraray
