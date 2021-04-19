@@ -6,11 +6,11 @@ import (
 	"enterprise.getqor.com/microsite"
 	"enterprise.getqor.com/microsite/develop/aws_manager"
 	"github.com/conku/admin"
+	"github.com/conku/configor"
 	"github.com/conku/l10n"
 	"github.com/conku/publish2"
 	adminapp "github.com/conku/qor-example/app/admin"
 	"github.com/conku/roles"
-	"github.com/jinzhu/configor"
 )
 
 var MicroSite *microsite.MicroSite

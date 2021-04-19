@@ -8,6 +8,7 @@ import (
 	"github.com/conku/auth/providers/github"
 	"github.com/conku/auth/providers/google"
 	"github.com/conku/auth/providers/twitter"
+	"github.com/conku/configor"
 	"github.com/conku/gomerchant"
 	"github.com/conku/location"
 	"github.com/conku/mailer"
@@ -16,7 +17,6 @@ import (
 	"github.com/conku/oss/s3"
 	"github.com/conku/redirect_back"
 	"github.com/conku/session/manager"
-	"github.com/jinzhu/configor"
 	"github.com/unrolled/render"
 )
 

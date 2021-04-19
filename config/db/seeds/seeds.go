@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/azumads/faker"
+	"github.com/conku/configor"
 	"github.com/conku/publish2"
-	"github.com/jinzhu/configor"
 
 	"github.com/conku/qor-example/config/db"
 )
