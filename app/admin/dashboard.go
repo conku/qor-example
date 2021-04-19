@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/conku/admin"
+	"github.com/conku/now"
 	"github.com/conku/qor-example/config/db"
-	"github.com/jinzhu/now"
 )
 
 type Chart struct {

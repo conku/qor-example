@@ -29,6 +29,7 @@ import (
 	"github.com/conku/media/oss"
 	"github.com/conku/notification"
 	"github.com/conku/notification/channels/database"
+	"github.com/conku/now"
 	"github.com/conku/publish2"
 	"github.com/conku/qor"
 	"github.com/conku/qor-example/app/admin"
@@ -45,7 +46,6 @@ import (
 	"github.com/conku/seo"
 	"github.com/conku/slug"
 	"github.com/conku/sorting"
-	"github.com/jinzhu/now"
 )
 
 /* How to run this script
