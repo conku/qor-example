@@ -39,6 +39,7 @@ func SetupNotification(Admin *admin.Admin) {
 			return err
 		},
 	})
+
 	Notification.Action(&notification.Action{
 		Name:         "Check it out",
 		MessageTypes: []string{"order_paid_cancelled", "order_processed", "order_returned"},
@@ -46,6 +47,7 @@ func SetupNotification(Admin *admin.Admin) {
 			return path.Join("/admin/orders/", regexp.MustCompile(`#(\d+)`).FindStringSubmatch(data.Body)[1])
 		},
 	})
+
 	Notification.Action(&notification.Action{
 		Name:         "Dismiss",
 		MessageTypes: []string{"order_paid_cancelled", "info", "order_processed", "order_returned"},

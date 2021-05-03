@@ -1,0 +1,6 @@
+{{$value := (raw_value_of .ResourceValue .Meta)}}
+{{if $value}}
+    <img src="{{$value}}">
+{{else}}
+    <span class="qor-table--medialibrary-file">无</span>
+{{end}}

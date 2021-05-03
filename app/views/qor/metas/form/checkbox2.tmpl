@@ -1,0 +1,19 @@
+    <div class="qor-field">
+        <div class="mdl-textfield mdl-textfield--full-width mdl-js-textfield">
+          <label class="qor-field__label mdl-textfield__label" for="{{.InputId}}">
+            {{meta_label .Meta}} 
+          </label>
+      
+          <div class="qor-field__show">
+            <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect mdl-js-ripple-effect--ignore-events {{if .Value }}is-checked{{else}}is-upgraded{{end}}" for="{{.InputId}}" >
+                <input type="checkbox" id="{{.InputId}}" class="mdl-switch__input"  name="{{.InputName}}"  onclick="materialSwitch()" {{if .Value }}checked{{end}}>
+            </label>
+        </div>
+      
+          <div class="qor-field__edit">
+            <input class="mdl-textfield__input" type="text" id="2{{.InputId}}" name="{{.InputName}}" value="{{.Value}}" {{if (not (has_change_permission .Meta)) }}disabled{{end}}>
+          </div>
+        </div>
+      </div>
+
+    
