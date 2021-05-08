@@ -13,8 +13,6 @@ import (
 	"github.com/conku/location"
 	"github.com/conku/mailer"
 	"github.com/conku/mailer/logger"
-	"github.com/conku/media/oss"
-	"github.com/conku/oss/s3"
 	"github.com/conku/redirect_back"
 	"github.com/conku/session/manager"
 	"github.com/unrolled/render"
@@ -82,14 +80,14 @@ func init() {
 	location.GoogleAPIKey = Config.GoogleAPIKey
 	location.BaiduAPIKey = Config.BaiduAPIKey
 
-	if Config.S3.AccessKeyID != "" {
-		oss.Storage = s3.New(&s3.Config{
-			AccessID:  Config.S3.AccessKeyID,
-			AccessKey: Config.S3.SecretAccessKey,
-			Region:    Config.S3.Region,
-			Bucket:    Config.S3.S3Bucket,
-		})
-	}
+	// if Config.S3.AccessKeyID != "" {
+	// 	oss.Storage = s3.New(&s3.Config{
+	// 		AccessID:  Config.S3.AccessKeyID,
+	// 		AccessKey: Config.S3.SecretAccessKey,
+	// 		Region:    Config.S3.Region,
+	// 		Bucket:    Config.S3.S3Bucket,
+	// 	})
+	// }
 
 	AmazonPay = amazonpay.New(&amazonpay.Config{
 		MerchantID: Config.AmazonPay.MerchantID,
